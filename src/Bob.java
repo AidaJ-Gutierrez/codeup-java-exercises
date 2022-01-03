@@ -19,7 +19,7 @@ public class Bob {
             boolean talk = true;
             while (talk){
                 String input = scanner.nextLine();
-                if (input.equals("")){
+                if (input.isEmpty()){
                     System.out.println("Fine. Be that way!");
                 }else if (input.endsWith("?")){
                     System.out.println("Sure");

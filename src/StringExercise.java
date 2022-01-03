@@ -1,7 +1,7 @@
-import java.util.Scanner;
+
 public class StringExercise {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
 
 //For each of the following output examples: create a String variable
 // that contains the desired output and print it out to the console,

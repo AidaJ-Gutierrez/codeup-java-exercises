@@ -36,7 +36,7 @@ public class ControlFlowExercises {
             reverseCount -= 5;
 
 
-        }while(reverseCount >= 0);
+        }while(reverseCount >= -10);
 
         //Create a do-while loop that starts at 2, and displays the number squared
         // on each line while the number is less than 1,000,000. Output should equal:

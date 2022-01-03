@@ -14,7 +14,7 @@ public class ControlFlowExercises {
             i++;
         }
 
-
+        System.out.println();
 // b. Do-While loop
         //Create a do-while loop that will count by 2's starting with 0 and ending at 100.
         // Follow each number with a new line.
@@ -22,9 +22,7 @@ public class ControlFlowExercises {
 
         do {
             System.out.println(count);
-                count += 0;
-                count = count + 2;
-
+                count += 2;
         }while(count <= 100);
 
 
@@ -93,7 +91,7 @@ do {
         boolean grades = true;
 
         do {
-            System.out.println("Please enter the  grade in integer form, from 0 - 100: ");
+            System.out.println("Please enter the  grade in integer form  0 - 100: ");
             int userGrade = scanner.nextInt();
             if(userGrade >= 88){
                 System.out.println("A");
@@ -107,7 +105,7 @@ do {
                 System.out.println("F");
             }
 
-            System.out.println("Do you what to ente a new grade? (y/n)");
+            System.out.println("Do you what to enter a new grade? (y/n)");
             String newGrade  = scanner.next();
              if (!newGrade.equalsIgnoreCase("y")){
                  grades = false;

@@ -28,7 +28,7 @@ public class Warmups {
         return  "Brain loading... Done!";
 
     }
-        System.out.println(startDay);
+//        System.out.println(startDay);
 
     }
 

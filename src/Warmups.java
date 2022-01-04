@@ -17,6 +17,18 @@ public class Warmups {
         String userBreakfast = scanner.nextLine();
         System.out.printf("That sounds delicious..   %s %n", userBreakfast);
 
+    }
+    //January 3rd
+    //Create a method called "starDAy" that returns a string with the value of "Brain loading... Done!". Execute
+    //your program and print out to the console.
+    //2.Add, commit and push your work to Githhub.
+
+    public static String startDay(){
+
+        return  "Brain loading... Done!";
 
     }
-}
+        System.out.println(startDay);
+
+    }
+

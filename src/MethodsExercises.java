@@ -98,9 +98,7 @@ public class MethodsExercises {
 //Use recursion to implement the factorial.
 public static long factorial(int number) {
       long factorial = 1;
-      do{
 
-      }while();
     for (int f = number; f > 0; f--) {
         factorial *= f;
     }

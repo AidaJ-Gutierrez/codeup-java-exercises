@@ -1,6 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class MethodsExercises {
 
@@ -100,7 +98,10 @@ public class MethodsExercises {
 //Use recursion to implement the factorial.
 public static long factorial(int number) {
       long factorial = 1;
-    for (double f = number; f > 0; f--) {
+      do{
+
+      }while();
+    for (int f = number; f > 0; f--) {
         factorial *= f;
     }
     return factorial;
@@ -160,9 +161,9 @@ public static long factorial(int number) {
         //"Roll" two n-sided dice, display the results of each,
     public static int rollingDice(int max){
             int rollOne = (int)(Math.random() * max * 1);
-            System.out.println("You got: " + rollOne + " on your first Die!");
+            System.out.println("You got: " + rollOne + " on your first Dice!");
             int rollTwo = (int)(Math.random() * max * 1);
-            System.out.println("You got: " + rollTwo + " on your second Die!");
+            System.out.println("You got: " + rollTwo + " on your second Dice!");
             return ( rollOne + rollTwo);
         }
 

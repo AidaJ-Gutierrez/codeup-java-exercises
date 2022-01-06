@@ -9,12 +9,10 @@ package shapes;
 
 public class Circle {
     private double radius;
-
-
     private static int createCircles= 1;
 
     public Circle(double rad){
-        radius = rad;
+        this.radius = radius;
         trackCircle();
     }
     public double getArea(){

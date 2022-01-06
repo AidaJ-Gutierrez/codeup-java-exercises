@@ -8,6 +8,7 @@
 package util;
 
 import java.util.Scanner;
+
 public class Input {
     private Scanner sc = new Scanner(System.in);
 
@@ -19,7 +20,7 @@ public class Input {
    }
 
    public boolean yesNo(){
-       System.out.println("type yes or no");
+       System.out.println("Would you want to continue? yes or no?");
        String yesNo = sc.nextLine();
 
        if (yesNo.contains("y") || yesNo.contains("Y")){
@@ -45,11 +46,10 @@ public int getInt(int min, int max){
         }
     }while (addInt);
    }
-//   public int getInt(){
-//       System.out.println("Type any integer");
-//        int userInt = sc.nextInt();
-//        return getInt();
-//   }
+   public int getInt(){
+         System.out.println("Enter an int.");
+        return this.sc.nextInt();
+   }
 
    public double getDouble(double min, double max){
        boolean doubleInt = true;
@@ -67,38 +67,28 @@ public int getInt(int min, int max){
            }
        }while (doubleInt);
 
+   }
 
-
-
+   public double getDouble(){
+       return this.sc.nextInt();
    }
 
 
-
-
-
-//   public double getDouble(){1
-//       System.out.println("Type any number with decimals");
-//       double doubleDoubleInput = sc.nextDouble();
-//      return getDouble();
-//   }
-
-
     //Bonus
-
    // Allow all of your methods for getting input to accept an optional String parameter named prompt.
     // If passed, the method should show the given prompt to the user before parsing the input.
 
 
 
 //COPIED TO InputTest.java
-//    public static void main(String[] args) {
-//       Input input = new Input();
+    public static void main(String[] args) {
+       Input input = new Input();
 //        System.out.println(input.getString());
 //        System.out.println(input.yesNo());
 //        System.out.println(input.getInt(1,10));
 ////        System.out.println(input.getInt());
 //        System.out.println(input.getDouble(1,10));
 ////        System.out.println(input.getDouble());
-//    }
+  }
 
-//}
+}

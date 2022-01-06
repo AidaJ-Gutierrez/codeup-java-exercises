@@ -3,21 +3,21 @@
 // (Note that you will need to import your Input class.)
 
 package shapes;
+import util.Input;
 
-import static shapes.Circle.trackCircle;
 
 
-//public class CircleApp {
-//    public static void main (String[] args) {
-//        Input userRadius = new Input();
-//        double radius = userRadius.getDouble();
-//
-//        Circle c1 = new Circle(radius);
-//        System.out.println(c1.getArea());
-//        System.out.println(c1.getCircumference());
-//
-//
-//
-//    }
-//
-//}
+public class CircleApp {
+    public static void main (String[] args) {
+        Input userRadius = new Input();
+        double radius = userRadius.getDouble();
+
+        Circle c1 = new Circle(radius);
+        System.out.println(c1.getArea());
+        System.out.println(c1.getCircumference());
+
+
+
+    }
+
+}

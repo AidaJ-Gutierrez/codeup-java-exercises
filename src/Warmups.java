@@ -30,5 +30,24 @@ public class Warmups {
     }
 //        System.out.println(startDay);
 
+    //jan. 6
+    //1.Crate a class named "pinguin"
+    //2.Give your class the followinf private fields
+        //a.name
+        //b.weight
+        //c.Species
+        //d.Sex
+    //3.Give your class the following public methos
+        //a.getName
+        // b.getWeight
+        //c.getSpecies
+        //d.getSex
+        //e.setName
+        //f.setWeight
+        //g.setSex
+        //4.Give your class a constructor method
+        //5.Give your class the following public static methods
+        // canFly (returns false)
+            //areEvil (returns true)
     }
 

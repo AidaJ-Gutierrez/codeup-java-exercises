@@ -6,7 +6,6 @@ public class ServerNameGenerator {
         int randomAdjective = (int) Math.floor(Math.random() * adjectives.length);
         int randomNoun = (int) Math.floor(Math.random() * nouns.length);
 
-
         System.out.println(adjectives[randomAdjective] + " - " + nouns[randomNoun]);
     }
 

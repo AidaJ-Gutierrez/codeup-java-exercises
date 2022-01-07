@@ -5,7 +5,6 @@ public class Movie {
     private String category;
 
 
-
     public String getName() {
         return name;
     }
@@ -23,7 +22,7 @@ public class Movie {
     }
 
     public Movie (String name, String category){
-        this.name=name;
-        this.category=category;
+        this.name= name;
+        this.category= category;
     }
 }

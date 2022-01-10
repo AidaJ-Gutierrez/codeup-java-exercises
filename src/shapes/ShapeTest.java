@@ -14,7 +14,7 @@ public class ShapeTest {
 
         // Create a Rectangle object with given set of values variable of the type
         // Rectangle named box2 and assign it a new instance of the Square class that has a side value of 5
-        Square box2= new Square(5);
+        Rectangle box2= new Square(5);
 
         System.out.println("Area of box 2 is "
                 + box2.getArea());

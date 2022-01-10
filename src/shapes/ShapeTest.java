@@ -17,6 +17,11 @@ public class ShapeTest {
         System.out.println("Area: " + myShape.getArea());
 
 
+        //Why does the code fail to compile if you leave off the getPerimeter method in Rectangle?
+        //
+        //What happens if you try to call the getLength or getWidth methods of the myShape variable? Why?
+        // Because is not listed in the interface. Measurable does not know what getLength or getWidth.
+
 
 
         //Inheritance and Polymorphism

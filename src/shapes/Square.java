@@ -10,22 +10,23 @@ public class Square extends Quadrilateral{
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return this.length * 4;
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return this.length * this.length;
     }
 
     @Override
-    public double getWidth() {
-        return 0;
+    public void setLength(double length) {
+        this.length = length;
+        this.width = width;
     }
 
     @Override
     public void setWidth(double width) {
-
+        this.setLength(width);
     }
 
 

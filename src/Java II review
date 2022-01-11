@@ -1,0 +1,76 @@
+# Java II Review Questions Part I.
+
+1. What is a class?
+A class can be seen as an object constructor or blueprint to create objects. Classes are categories.
+
+
+
+2. What is the difference between a class and an object?
+
+Classes are categories and objects are items (instances) within each category.
+All Objects in a given class have the same methods or properties.
+
+
+3. What is the difference between static and instance fields? Give an example of each.
+
+An instance field is when each instance of a class has its own set of fields.
+A Static field is a field that does not belong to any instance of a class
+
+
+public class Car {
+String color; // this is an instance variable.
+  public Car() {
+ } // this is a instance field
+
+
+
+4. What is is the purpose of a main method?
+
+In any Java program, the main() method is the starting point from where compiler starts program execution. So, the compiler needs to call the main() method.
+If the main() is allowed to be non-static, then while calling the main() method JVM has to instantiate its class.
+The main() method in Java must be declared public, static and void. If any of these are missing, the Java program will compile but a runtime error will be thrown.
+
+main method is public so that it can be accessible everywhere and to every object which may desire to use it for launching the application.
+
+5. What makes a method recursive? Give an example.
+When the method call it self, two main requirements, a stop condition and recursive call similar to an if statement
+public int sum(int n) {
+    if (n >= 1) {
+        return sum(n - 1) + n;
+    }
+    return n;
+}
+6. Define the following terms and cite a specific example for each...
+
+	- Encapsulation- grouping related variables and functions that operate on  them into objects
+
+
+	- Inheritance- an object acquires all the properties and behaviors of a parent object
+class Subclass-name extends Superclass-name
+{
+   //methods and fields
+}
+	- Polymorphism-
+
+	- Abstraction
+
+7. What is the difference between method overloading and method overriding?
+
+8. What are four types of visibility in Java?
+
+9. Give two examples of how to define an array.
+
+10. What are the differences between interfaces and abstract classes?
+Collapse
+
+
+
+
+
+
+
+
+
+
+
+

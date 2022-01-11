@@ -28,7 +28,7 @@ public class Student {
     public int getGradeAverage(){
         int averageGrade= 0;
         for (int grade : this.grades){
-            averageGrade =+ grade;
+            averageGrade += grade;
         }
         return averageGrade / this.grades.size();
     };

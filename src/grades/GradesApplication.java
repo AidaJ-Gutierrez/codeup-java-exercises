@@ -37,7 +37,7 @@ public class GradesApplication {
         aaron.addGrade(100);
 
 
-
+//add to map
         students.put("AnaWritesBeautifulCode", ana);
         students.put("VicTurnsCoffeeIntoCode", victoria);
         students.put("AdanJavaMan", adan);
@@ -64,11 +64,12 @@ public class GradesApplication {
             }else if (userSearch.equalsIgnoreCase("AnaWritesBeautifulCode")){
                 System.out.println("Name: " + ana.getName() + ", Github Username: " + userSearch + "\nGrade Average: " + ana.getGradeAverage());
             }else{
-                System.out.println("No students with that username were found.");
+                System.out.println("No students with the  username of " + userSearch + " were found.");
             }
             System.out.println("Would you like to search again?");
             String letsContinue = scanner.nextLine();
             if(letsContinue.contains("n")||letsContinue.contains("N")){
+                System.out.println("Goodbye!");
                 keepSearching = false;
                 break;
             }

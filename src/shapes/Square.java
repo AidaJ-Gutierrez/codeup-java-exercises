@@ -30,7 +30,9 @@ public class Square extends Quadrilateral{
     }
 
 
-    //Inheritance and Polymorphism
+    //Inheritance and Polymorphism exercise:
+
+//  public double side;
 //    public Square(double side){
 //        super(side, side);
 //    }
@@ -43,7 +45,7 @@ public class Square extends Quadrilateral{
 //
 //
 //    public double getArea() {
-//        System.out.println("This is the are of the square");
+//        System.out.println("This is the area of the square");
 //        return this.length * this.width;
 //    }
 

@@ -27,6 +27,7 @@ public class Rectangle extends Quadrilateral implements Measurable {
         return this.length * this.width;
     }
 
+}
 
     //Inheritance and Polymorphism
 //protected double length;
@@ -47,4 +48,4 @@ public class Rectangle extends Quadrilateral implements Measurable {
 //    }
 
 
-}
+
